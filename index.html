@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <div class="header-intro">
+                <h1>Flickr Like Gallery</h1>
+                <h3>search stuff you wanna search :) </h3>
+            </div>
+            <nav>
+                <form>
+                    <input type="text" name="search" placeholder="category" id="search-input">
+                    <select name="size" id="size-selection">
+                        <option class="size-option" value="m">Small</option>
+                        <option class="size-option" value="z">Medium</option>
+                        <option class="size-option" value="b">Large</option>
+                    </select>       
+                    <input type="number" name="" placeholder="number of images" id="img-number">
+                    <button id="submit-button">Enter</button> 
+                </form>
+            </nav>
+        </header>
+        <section>
+            <h3 id="error-message"></h3>
+        </section>
+        <div id="img-gallery"></div>
+</body>
+</html>
